@@ -21,10 +21,10 @@ export default function About() {
         </Link>
 
         <Link
-          href="/about"
+          href="/"
           className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-lg md:text-xl tracking-wide"
         >
-          About Us
+          Home
         </Link>
       </nav>
 
