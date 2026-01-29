@@ -40,25 +40,25 @@ export default function About() {
 
           <p className="mb-16 md:mb-20">
             We play our part in service of systems change<br />
-            by each of us at ikigai pursuing our mastery.<br />
+            by each of us at <em>ikigai</em> pursuing our mastery.<br />
             Our life&apos;s work.
           </p>
 
           <p className="mb-16 md:mb-20">
             We are a professional services and experiences company.<br />
             10% of our revenue, time and attention goes to<br />
-            our in-house non-profit, ikigai foundation.
+            our in-house non-profit, <em>ikigai foundation</em>.
           </p>
 
           <p className="mb-16 md:mb-20">
-            The best way to understand ikigai city is as a beautiful tree.<br />
+            The best way to understand <em>ikigai city</em> is as a beautiful tree.<br />
             Each branch of the tree is owned by a co-founder<br />
             who has ownership and mastery of what that branch promises.
           </p>
 
           <p className="mb-16 md:mb-20">
-            From ikigai strategy to ikigai music,<br />
-            and ikigai engineering to ikigai art.
+            From <em>ikigai strategy</em> to <em>ikigai music</em>,<br />
+            and <em>ikigai engineering</em> to <em>ikigai art</em>.
           </p>
 
           <p className="mb-16 md:mb-20">
