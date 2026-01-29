@@ -4,80 +4,138 @@ import Link from "next/link";
 export default function About() {
   return (
     <main className="min-h-screen w-full bg-white flex flex-col">
-      {/* Navigation */}
-      <nav className="w-full flex items-center justify-between px-7 md:px-10 pt-6 md:pt-5 pb-2">
+      {/* Navigation - Desktop */}
+      <nav
+        className="hidden md:flex w-full items-center justify-between"
+        style={{ paddingLeft: '32px', paddingRight: '32px', paddingTop: '16px', paddingBottom: '8px' }}
+      >
         <Link href="/">
           <Image
             src="/ikigai-logo.svg"
             alt="ikigai.city"
             width={200}
             height={60}
-            className="h-12 md:h-16 w-auto"
+            className="h-14 w-auto"
             priority
           />
         </Link>
-
         <Link
           href="/"
-          className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-lg md:text-xl tracking-wide"
+          className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-lg tracking-wide"
         >
           Home
         </Link>
       </nav>
 
-      {/* Content */}
-      <div className="flex-1 flex flex-col items-center justify-center px-8 md:px-12 py-12 md:py-24">
+      {/* Navigation - Mobile */}
+      <nav className="flex md:hidden w-full items-center justify-between px-10 pt-8 pb-2">
+        <Link href="/">
+          <Image
+            src="/ikigai-logo.svg"
+            alt="ikigai.city"
+            width={200}
+            height={60}
+            className="h-12 w-auto"
+            priority
+          />
+        </Link>
+        <Link
+          href="/"
+          className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-lg tracking-wide"
+        >
+          Home
+        </Link>
+      </nav>
+
+      {/* Content - Desktop */}
+      <div className="hidden md:flex flex-1 flex-col items-center justify-center px-10 pt-8 pb-16 -mt-8">
         <Image
           src="/ikigai-logo-symbol.svg"
           alt="ikigai symbol"
           width={80}
           height={80}
-          className="w-16 h-16 md:w-auto md:h-auto mb-10 md:mb-16"
+          className="w-14 h-14 mb-12"
         />
-        <div className="max-w-2xl text-center text-black text-[15px] md:text-xl leading-[1.85] md:leading-relaxed">
+        <div className="max-w-xl text-center text-black text-base leading-relaxed">
 
-          <p className="mb-8 md:mb-20">
-            We are a systems change organisation.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
-            Our mission is systems change.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            We are a systems change organisation.<br />
+            Our mission is systems change.<br />
             Simple.
           </p>
 
-          <p className="mb-8 md:mb-20">
-            We play our part in service of systems change
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
-            by each of us at <em>ikigai</em> pursuing our mastery.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            We play our part in service of systems change<br />
+            by each of us at <em>ikigai</em> pursuing our mastery.<br />
             Our life&apos;s work.
           </p>
 
-          <p className="mb-8 md:mb-20">
-            We are a professional services and experiences company.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
-            10% of our revenue, time and attention goes to
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            We are a professional services and experiences company.<br />
+            10% of our revenue, time and attention goes to<br />
             our in-house non-profit, <em>ikigai foundation</em>.
           </p>
 
-          <p className="mb-8 md:mb-20">
-            The best way to understand <em>ikigai city</em> is as a beautiful tree.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
-            Each branch of the tree is owned by a co-founder
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            The best way to understand <em>ikigai city</em> is as a beautiful tree.<br />
+            Each branch of the tree is owned by a co-founder<br />
             who has ownership and mastery of what that branch promises.
           </p>
 
-          <p className="mb-8 md:mb-20">
-            From <em>ikigai strategy</em> to <em>ikigai music</em>,
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            From <em>ikigai strategy</em> to <em>ikigai music</em>,<br />
             and <em>ikigai engineering</em> to <em>ikigai art</em>.
           </p>
 
-          <p className="mb-8 md:mb-20">
-            Our founders will serve you to the highest possible standards on Earth.
-            <br className="hidden md:block" /><span className="md:hidden"> </span>
+          <p className="mb-14">
+            Our founders will serve you to the highest possible standards on Earth.<br />
             We are all masters pursuing the infinite game.
+          </p>
+
+          <p>
+            Love.<br />
+            Wisdom.<br />
+            Wonder.<br />
+            Creation.<br />
+            Abundance.
+          </p>
+
+        </div>
+      </div>
+
+      {/* Content - Mobile */}
+      <div className="flex md:hidden flex-1 flex-col items-center justify-center px-8 py-12">
+        <Image
+          src="/ikigai-logo-symbol.svg"
+          alt="ikigai symbol"
+          width={80}
+          height={80}
+          className="w-16 h-16 mb-10"
+        />
+        <div className="max-w-2xl text-center text-black text-[15px] leading-[1.85]">
+
+          <p className="mb-8">
+            We are a systems change organisation. Our mission is systems change. Simple.
+          </p>
+
+          <p className="mb-8">
+            We play our part in service of systems change by each of us at <em>ikigai</em> pursuing our mastery. Our life&apos;s work.
+          </p>
+
+          <p className="mb-8">
+            We are a professional services and experiences company. 10% of our revenue, time and attention goes to our in-house non-profit, <em>ikigai foundation</em>.
+          </p>
+
+          <p className="mb-8">
+            The best way to understand <em>ikigai city</em> is as a beautiful tree. Each branch of the tree is owned by a co-founder who has ownership and mastery of what that branch promises.
+          </p>
+
+          <p className="mb-8">
+            From <em>ikigai strategy</em> to <em>ikigai music</em>, and <em>ikigai engineering</em> to <em>ikigai art</em>.
+          </p>
+
+          <p className="mb-8">
+            Our founders will serve you to the highest possible standards on Earth. We are all masters pursuing the infinite game.
           </p>
 
           <p>
