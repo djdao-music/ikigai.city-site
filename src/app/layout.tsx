@@ -23,6 +23,10 @@ const dancingScript = Dancing_Script({
 export const metadata: Metadata = {
   title: "ikigai.city | An Abundance Era Economy",
   description: "Welcome to ikigai.city - a spiritual digital city for founders and creatives to do their life's work of mastery.",
+  icons: {
+    icon: "/ikigai-logo-symbol.svg",
+    apple: "/ikigai-logo-symbol.svg",
+  },
   openGraph: {
     title: "ikigai.city | An Abundance Era Economy",
     description: "Welcome to ikigai.city",
