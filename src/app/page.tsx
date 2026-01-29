@@ -8,7 +8,7 @@ export default function Home() {
     <main className="h-screen w-full bg-white flex flex-col overflow-hidden">
       {/* Navigation */}
       <nav
-        className="w-full flex items-center justify-between"
+        className="w-full flex items-center justify-between relative z-10"
         style={{ paddingLeft: '40px', paddingRight: '40px', paddingTop: '20px', paddingBottom: '8px' }}
       >
         {/* Logo - top left */}
