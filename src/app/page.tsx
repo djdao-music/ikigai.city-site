@@ -38,7 +38,7 @@ export default function Home() {
         style={{ paddingBottom: '120px', marginTop: '-60px' }}
       >
         {/* City Earth graphic */}
-        <div className="w-full max-w-xl md:max-w-2xl px-6">
+        <div className="w-full max-w-lg md:max-w-xl px-6">
           <Image
             src="/ikigai-city-earth.png"
             alt="ikigai city"
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         {/* Welcome text/graphic */}
-        <div className="mt-6 w-full max-w-md md:max-w-lg px-6">
+        <div className="mt-6 w-full max-w-sm md:max-w-md px-6">
           <Image
             src="/ikigai-city-welcome.svg"
             alt="Welcome to ikigai city"
