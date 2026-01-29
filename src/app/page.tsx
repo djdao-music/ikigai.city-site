@@ -50,7 +50,7 @@ export default function Home() {
         </div>
 
         {/* Welcome text/graphic */}
-        <div className="mt-6 w-full max-w-md md:max-w-lg px-6 scale-[0.98]">
+        <div className="mt-3 w-full max-w-md md:max-w-lg px-6 scale-[0.98]">
           <Image
             src="/ikigai-city-welcome.svg"
             alt="Welcome to ikigai city"
