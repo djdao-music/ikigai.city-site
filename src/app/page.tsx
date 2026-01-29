@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="h-screen w-full bg-white flex flex-col overflow-hidden">
       {/* Navigation */}
-      <nav className="w-full flex items-center justify-between relative z-10 px-5 md:px-10 pt-4 md:pt-5 pb-2">
+      <nav className="w-full flex items-center justify-between relative z-10 px-7 md:px-10 pt-6 md:pt-5 pb-2">
         {/* Logo - top left */}
         <Link href="/">
           <Image
@@ -15,7 +15,7 @@ export default function Home() {
             alt="ikigai.city"
             width={200}
             height={60}
-            className="h-10 sm:h-12 md:h-16 w-auto"
+            className="h-12 md:h-16 w-auto"
             priority
           />
         </Link>
@@ -23,16 +23,16 @@ export default function Home() {
         {/* About Us link - top right */}
         <Link
           href="/about"
-          className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-base sm:text-lg md:text-xl tracking-wide"
+          className="text-stone-600 hover:text-stone-900 transition-colors font-medium text-lg md:text-xl tracking-wide"
         >
           About Us
         </Link>
       </nav>
 
       {/* Main content - centered */}
-      <div className="flex-1 flex flex-col items-center justify-center pb-16 sm:pb-24 md:pb-28 -mt-4 sm:-mt-8 md:-mt-14">
+      <div className="flex-1 flex flex-col items-center justify-center pb-20 -mt-8 md:pb-[120px] md:-mt-[60px]">
         {/* City Earth graphic */}
-        <div className="w-full max-w-xs sm:max-w-md md:max-w-xl lg:max-w-2xl px-8 sm:px-6">
+        <div className="w-full max-w-xs md:max-w-2xl px-10 md:px-6 md:scale-[0.99]">
           <Image
             src="/ikigai-city-earth.png"
             alt="ikigai city"
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         {/* Welcome text/graphic */}
-        <div className="-mt-1 w-full max-w-xs sm:max-w-sm md:max-w-lg px-8 sm:px-6">
+        <div className="-mt-1 w-full max-w-[280px] md:max-w-lg px-8 md:px-6 md:scale-[0.98]">
           <Image
             src="/ikigai-city-welcome.svg"
             alt="Welcome to ikigai city"
