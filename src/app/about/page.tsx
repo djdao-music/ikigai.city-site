@@ -48,7 +48,7 @@ export default function About() {
       </nav>
 
       {/* Content - Desktop */}
-      <div className="hidden md:flex flex-1 flex-col items-center justify-center px-10 pt-8 pb-16 -mt-8">
+      <div className="hidden md:flex flex-1 flex-col items-center justify-center px-10 pt-8 pb-16 -mt-12">
         <Image
           src="/ikigai-logo-symbol.svg"
           alt="ikigai symbol"
@@ -104,15 +104,15 @@ export default function About() {
       </div>
 
       {/* Content - Mobile */}
-      <div className="flex md:hidden flex-1 flex-col items-center justify-center px-8 py-12">
+      <div className="flex md:hidden flex-1 flex-col items-center justify-center px-12 py-12">
         <Image
           src="/ikigai-logo-symbol.svg"
           alt="ikigai symbol"
           width={80}
           height={80}
-          className="w-16 h-16 mb-10"
+          className="w-14 h-14 mb-10"
         />
-        <div className="max-w-2xl text-center text-black text-[15px] leading-[1.85]">
+        <div className="max-w-2xl text-center text-black text-[13px] leading-[1.9]">
 
           <p className="mb-8">
             We are a systems change organisation. Our mission is systems change. Simple.
