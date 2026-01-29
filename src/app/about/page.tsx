@@ -30,6 +30,13 @@ export default function About() {
 
       {/* Content */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 md:px-12 py-16 md:py-24">
+        <Image
+          src="/ikigai-logo-symbol.svg"
+          alt="ikigai symbol"
+          width={80}
+          height={80}
+          className="mb-12 md:mb-16"
+        />
         <div className="max-w-2xl text-center text-black text-lg md:text-xl leading-relaxed">
 
           <p className="mb-16 md:mb-20">
