@@ -50,7 +50,7 @@ export default function About() {
       {/* Content - Desktop */}
       <div className="hidden md:flex flex-1 flex-col items-center justify-center px-10 pt-8 pb-16 -mt-12">
         <Image
-          src="/ikigai-logo-symbol.svg"
+          src="/ikigai-logo-symbol.png"
           alt="ikigai symbol"
           width={80}
           height={80}
@@ -106,7 +106,7 @@ export default function About() {
       {/* Content - Mobile */}
       <div className="flex md:hidden flex-1 flex-col items-center justify-center px-12 py-12">
         <Image
-          src="/ikigai-logo-symbol.svg"
+          src="/ikigai-logo-symbol.png"
           alt="ikigai symbol"
           width={80}
           height={80}

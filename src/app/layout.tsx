@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   title: "ikigai.city | An Abundance Era Economy",
   description: "Welcome to ikigai.city - a spiritual digital city for founders and creatives to do their life's work of mastery.",
   icons: {
-    icon: "/ikigai-logo-symbol.svg",
-    apple: "/ikigai-logo-symbol.svg",
+    icon: "/ikigai-logo-symbol.png",
+    apple: "/ikigai-logo-symbol.png",
   },
   openGraph: {
     title: "ikigai.city | An Abundance Era Economy",
