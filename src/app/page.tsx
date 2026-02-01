@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* Mobile version */}
       <div className="flex md:hidden flex-1 flex-col items-center justify-center pb-20 -mt-4">
-        <div className="w-full max-w-[240px] px-6">
+        <div className="w-full max-w-[320px] px-6">
           <Image
             src="/ikigai-city-earth.png"
             alt="ikigai city"
